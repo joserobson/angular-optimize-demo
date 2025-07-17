@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: sans-serif;
+  margin: 2em;
+}
+
+.container {
+  display: flex;
+  gap: 2em;
+}
+
+.example {
+  border: 1px solid #ccc;
+  padding: 1em;
+  width: 45%;
+}
