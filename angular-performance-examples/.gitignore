@@ -1,0 +1,65 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Compiled output
+# For build artifacts and temporary files from the compilation process.
+# ---------------------------------------------------------------------------
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Dependencies
+# The node_modules directory can be huge and should be generated from package.json.
+# ---------------------------------------------------------------------------
+/node_modules
+/npm-debug.log*
+/yarn-error.log
+
+# Note: It is recommended to commit your package-lock.json, yarn.lock, or pnpm-lock.yaml.
+# If you use pnpm and want to ignore its lock file, uncomment the line below.
+# /pnpm-lock.yaml
+
+# Angular CLI cache
+# This directory is used by Angular CLI to cache build-related information.
+# ---------------------------------------------------------------------------
+/.angular/cache
+
+# IDEs and Editors
+# User-specific settings for various editors should not be in the repository.
+# ---------------------------------------------------------------------------
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+# Caches, logs, and coverage reports that are generated during development.
+# ---------------------------------------------------------------------------
+/.sass-cache
+/connect.lock
+/coverage
+/testem.log
+
+# System files
+# OS-specific files that have no place in a shared repository.
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# Environment variables
+# Never commit secret keys or environment-specific configurations.
+# ---------------------------------------------------------------------------
+.env
+.env.local
+.env.*.local
